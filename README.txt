@@ -8,7 +8,7 @@ The project utilizes hour datasets.
 while the "hour" dataset provides hourly details. Dataset Description Day Dataset
 
 
-To run the project locally, please ensure you have the following dependencies installed:
+To run the project locally, following dependencies installed:
 
 Python 3.7 or higher
 NumPy
@@ -28,9 +28,11 @@ Model Building and Selection
 To predict the bike rental count, several machine learning models were implemented and evaluated. The following algorithms were utilized:
 Linear Regression
 Random Forest
-Extra Trees Regressor
-LightGBM
+Lasso
+Ridge
 XGBoost
+GradientBoostingRegressor
+And deep leanrnig with tensorflow
 
 After training and evaluating these models, XGBoost was chosen as the final model due to its superior performance in terms of accuracy and predictive power. Model Deployment
 
@@ -39,4 +41,3 @@ The selected XGBoost model was deployed using Streamlit, a Python library for bu
 
 Conclusion
 This project demonstrates the application of machine learning models in predicting bike rental counts. By leveraging the power of LightGBM and utilizing various input features, the model achieves accurate predictions, allowing users to make informed decisions related to bike rental management.
-For further details, code implementation, and analysis, please refer to the code repository.
